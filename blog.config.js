@@ -1,10 +1,10 @@
 const BLOG = {
-  title: '信鑫 Blog',
-  author: 'ycjcl868',
+  title: 'GeekMoe Blog',
+  author: 'GeekMoe',
   authorAvatar: '/avatar.jpeg',
-  email: 'chaolinjin@gmail.com',
+  email: 'moe@geekmoe.com',
   defaultImageHost: 'images.rustc.cloud',
-  link: 'https://www.rustc.cloud',
+  link: 'https://moe.yhgh.me',
   description: '写写文章的地方',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   dateFormat: 'YYYY-MM-DD',
@@ -22,7 +22,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/ycjcl',
   seo: {
-    keywords: ['Blog', 'Website', '信鑫', 'ycjcl868', '博客'],
+    keywords: ['Blog', 'Website', 'Geekmoe', 'geekmoe', '博客'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   isPreviewImageSupportEnabled: process.env.IS_PREVIEW_IMAGE,
