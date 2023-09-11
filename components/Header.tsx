@@ -10,7 +10,7 @@ const NavBar = () => {
 
   const links = [
     { name: locale.NAV.INDEX, to: '/', show: true },
-    { name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
+    { name: locale.NAV.ABOUT, to: '/about', show: true },
     { name: locale.NAV.SEARCH, to: '/search', show: true },
     { name: locale.NAV.RSS, to: '/feed', show: true, external: true }
   ].map((link, id) => ({ ...link, id }))
